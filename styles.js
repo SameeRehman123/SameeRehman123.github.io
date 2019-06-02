@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\samee\Desktop\Personal_Website(2)\personal-website\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\Samee_Rehman\Desktop\PersonalWebsite\Personal_Website(2)\personal-website\src\styles.css */"./src/styles.css");
 
 
 /***/ })
