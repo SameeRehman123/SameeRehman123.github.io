@@ -145,10 +145,10 @@ var AppComponent = /** @class */ (function () {
                 inactiveComponent_1.classList.remove('isShowing');
                 activeComponent.classList.add('animateIn');
                 activeComponent.classList.add('isShowing');
-            }, 300);
+            }, 250);
             setTimeout(function () {
                 activeComponent.classList.remove('animateIn');
-            }, 600);
+            }, 550);
         }
         else {
         }
@@ -314,7 +314,7 @@ var ContactComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".work{\r\n    padding: 36px;\r\n}\r\n\r\nsmall{\r\n    color: #E74C3C;\r\n}\r\n\r\nhr{\r\n    padding: 0;\r\n    margin: 0 0 8px 0;\r\n}\r\n\r\np{\r\n    font-size: 0.96em;\r\n    line-height: 1.5em;\r\n    color: rgb(99, 99, 99);\r\n}\r\n\r\nh5{\r\n    padding: 10px 0px 4px 0px;\r\n    margin: 0;\r\n    color: rgb(99, 99, 99);\r\n}\r\n\r\n#experience, #education{\r\n    padding-bottom: 20px;\r\n}\r\n\r\n#experience h3{\r\n    color: #5DA4D9;\r\n    display: inline-block;\r\n    padding: 0;\r\n    margin: 0;\r\n    text-transform: uppercase;\r\n}\r\n\r\n#skills h3, #education h3{\r\n    color: #5DA4D9;\r\n    display: inline-block;\r\n    padding-top: 18px;\r\n    margin: 0;\r\n    text-transform: uppercase;\r\n}\r\n\r\nul{\r\n    padding: 0;\r\n    list-style-type: none;\r\n}\r\n\r\nul li{\r\n    font-size: 0.90em;\r\n    display: inline-block;\r\n    padding: 5px;\r\n    margin: 5px;\r\n    border: 1px solid rgb(161, 161, 161);\r\n    color: rgb(99, 99, 99);\r\n    border-radius: 3px;\r\n        \r\n}\r\n\r\n.material-icons{\r\n    display: inline-block;\r\n    vertical-align: middle;\r\n    padding: 0px 12px 5px 0px;\r\n    font-size: 36px;\r\n    color: #5DA4D9;\r\n}\r\n\r\n.eVision li, .tecsys li{\r\n    font-size: 0.94em;\r\n}"
+module.exports = ".work{\r\n    padding: 36px;\r\n}\r\n\r\nsmall{\r\n    color: #E74C3C;\r\n}\r\n\r\nhr{\r\n    padding: 0;\r\n    margin: 0 0 8px 0;\r\n}\r\n\r\np{\r\n    font-size: 0.96em;\r\n    line-height: 1.5em;\r\n    color: rgb(99, 99, 99);\r\n}\r\n\r\nh5{\r\n    padding: 10px 0px 4px 0px;\r\n    margin: 0;\r\n    color: rgb(99, 99, 99);\r\n}\r\n\r\n#experience, #education{\r\n    padding-bottom: 20px;\r\n}\r\n\r\n#experience h3{\r\n    color: #5DA4D9;\r\n    display: inline-block;\r\n    padding: 0;\r\n    margin: 0;\r\n  font-size: 1.1em;\r\n    text-transform: uppercase;\r\n}\r\n\r\n#skills h3, #education h3{\r\n    color: #5DA4D9;\r\n    display: inline-block;\r\n    padding-top: 18px;\r\n    margin: 0;\r\n  font-size: 1.1em;\r\n  text-transform: uppercase;\r\n}\r\n\r\nul{\r\n    padding: 0;\r\n    list-style-type: none;\r\n}\r\n\r\nul li{\r\n    font-size: 0.90em;\r\n    display: inline-block;\r\n    padding: 5px;\r\n    margin: 5px;\r\n    border: 1px solid rgb(161, 161, 161);\r\n    color: rgb(99, 99, 99);\r\n    border-radius: 3px;\r\n\r\n}\r\n\r\n.material-icons{\r\n    display: inline-block;\r\n    vertical-align: middle;\r\n    padding: 0px 12px 5px 0px;\r\n    font-size: 30px;\r\n    color: #5DA4D9;\r\n}\r\n\r\n.eVision li, .tecsys li{\r\n    font-size: 0.94em;\r\n}\r\n"
 
 /***/ }),
 
@@ -377,7 +377,7 @@ var ExperienceComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "#about{\r\n    box-sizing: border-box;\r\n    padding: 36px;\r\n    min-height: 493px;\r\n}\r\n\r\nhr{\r\n    padding: 0;\r\n    margin: 0 0 8px 0;\r\n}\r\n\r\nh3{\r\n    padding: 0;\r\n    margin: 0;\r\n    text-transform: uppercase;\r\n    color: #5DA4D9;\r\n    display: inline-block;\r\n}\r\n\r\n.interests-heading{\r\n    padding-top: 25px !important;\r\n}\r\n\r\np{\r\n    font-size: 0.92em;\r\n    line-height: 1.5em;\r\n    color: rgb(99, 99, 99);\r\n}\r\n\r\n.icons{\r\n    text-align: center;\r\n    margin-top: 20px;\r\n}\r\n\r\n.description, .interest{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n.interest .material-icons, .description .material-icons{\r\n    display: inline-block;\r\n    vertical-align: middle;\r\n    padding: 0px 12px 5px 0px;\r\n    font-size: 36px;\r\n    color: #5DA4D9;\r\n}\r\n\r\n.icons .material-icons{\r\n    font-size: 39px;\r\n    padding: 10px 25px;\r\n    color: #f15a22;\r\n}"
+module.exports = "#about{\r\n    box-sizing: border-box;\r\n    padding: 36px;\r\n    min-height: 493px;\r\n}\r\n\r\nhr{\r\n    padding: 0;\r\n    margin: 0 0 8px 0;\r\n}\r\n\r\nh3{\r\n    padding: 0;\r\n    margin: 0;\r\n    font-size: 1.1em;\r\n    text-transform: uppercase;\r\n    color: #5DA4D9;\r\n    display: inline-block;\r\n}\r\n\r\n.interests-heading{\r\n    padding-top: 25px !important;\r\n}\r\n\r\np{\r\n    font-size: 0.92em;\r\n    line-height: 1.5em;\r\n    color: rgb(99, 99, 99);\r\n}\r\n\r\n.icons{\r\n    text-align: center;\r\n    margin-top: 20px;\r\n}\r\n\r\n.description, .interest{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n.interest .material-icons, .description .material-icons{\r\n    display: inline-block;\r\n    vertical-align: middle;\r\n    padding: 0px 12px 5px 0px;\r\n    font-size: 30px;\r\n    color: #5DA4D9;\r\n}\r\n\r\n.icons .material-icons{\r\n    font-size: 39px;\r\n    padding: 10px 25px;\r\n    color: #f15a22;\r\n}\r\n"
 
 /***/ }),
 
@@ -388,7 +388,7 @@ module.exports = "#about{\r\n    box-sizing: border-box;\r\n    padding: 36px;\r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"about\">\n  <div class=\"description\">\n      <i class=\"material-icons\">description</i>\n      <h3>Description</h3>\n      <hr>\n\n      <p>I am a programmer with a major in Computer Science.</p>\n      <p>I have a passion for creating unique, innovative and user-friendly applications that delivers,\n        not just a robust working product, but an attractive web design to engage the users.\n      </p>\n      <p>My passion and zeal for coding has enabled me to excel in many different aspects of my field.\n        From developing web applications to mobile applications, I have grew an immense passion for programming. <br/>\n        My main projects that have been completed and deployed can be viewed on the Projects tab.\n      </p>\n    </div>\n    <div class=\"interest\">\n      <i class=\"material-icons\">stars</i>\n      <h3 class=\"interests-heading\">Interests</h3>\n      <hr>\n      <div class=\"icons mat-elevation-z2\" style=\"border-radius: 7px\">\n          <i class=\"material-icons\" matTooltip=\"Home\">home</i>\n          <i class=\"material-icons\" matTooltip=\"Travel\">flight</i>\n          <i class=\"material-icons\" matTooltip=\"Coding\">computer</i>\n          <i class=\"material-icons\" matTooltip=\"Reading\">library_books</i>\n          <i class=\"material-icons\" matTooltip=\"Fast Food\">fastfood</i>\n          <i class=\"material-icons\" matTooltip=\"Weekend\">weekend</i>\n      </div>\n    </div>\n</div>\n"
+module.exports = "<div id=\"about\">\n  <div class=\"description\">\n      <i class=\"material-icons\">description</i>\n      <h3>Description</h3>\n      <hr>\n\n      <p>I am a programmer with a major in Computer Science.</p>\n      <p>I have a passion for creating unique, innovative and user-friendly applications that delivers,\n        not just a robust working product, but an attractive web design to engage the users.\n      </p>\n      <p>My passion and zeal for coding has enabled me to excel in many different aspects of my field.\n        From developing web applications to mobile applications, I have grew an immense passion for programming. <br/>\n        My main projects that have been completed and deployed can be viewed on the Projects tab.\n      </p>\n    </div>\n    <div class=\"interest\">\n      <i class=\"material-icons\">sports_volleyball</i>\n      <h3 class=\"interests-heading\">Interests</h3>\n      <hr>\n      <div class=\"icons mat-elevation-z2\" style=\"border-radius: 7px\">\n          <i class=\"material-icons\" matTooltip=\"Home\">home</i>\n          <i class=\"material-icons\" matTooltip=\"Travel\">flight</i>\n          <i class=\"material-icons\" matTooltip=\"Coding\">computer</i>\n          <i class=\"material-icons\" matTooltip=\"Reading\">library_books</i>\n          <i class=\"material-icons\" matTooltip=\"Fast Food\">fastfood</i>\n          <i class=\"material-icons\" matTooltip=\"Weekend\">weekend</i>\n      </div>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -597,7 +597,7 @@ var MaterialModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "*{\r\n    box-sizing: border-box;\r\n}\r\n\r\n#navbar{\r\n    background: #fff;\r\n    border-bottom: 1.3px solid rgb(224, 224, 224);\r\n}\r\n\r\n#navbar div{\r\n    display: inline-block;\r\n    border-right: 1px solid rgb(224, 224, 224);\r\n    padding: 27px 0px;\r\n    width: 25%;\r\n    /*width: 20%;*/\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    cursor: pointer;\r\n}\r\n\r\n#navbar div:last-child{\r\n    border-right: none;\r\n}\r\n\r\n#navbar div h4{\r\n    color: rgb(75, 75, 75);\r\n    font-size: 0.90em;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    text-decoration: none;\r\n}\r\n\r\n.dynamicBGColor{\r\n    background: #5DA4D9 !important;\r\n}\r\n\r\n.dynamicColor{\r\n    color: #fff !important;\r\n}\r\n"
+module.exports = "*{\r\n    box-sizing: border-box;\r\n}\r\n\r\n#navbar{\r\n    background: #fff;\r\n    border-bottom: 1.3px solid rgb(224, 224, 224);\r\n}\r\n\r\n#navbar div{\r\n    display: inline-block;\r\n    border-right: 1px solid rgb(224, 224, 224);\r\n    padding: 27px 0px;\r\n    /*width: 25%;*/\r\n    width: 20%;\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    cursor: pointer;\r\n}\r\n\r\n#navbar div:last-child{\r\n    border-right: none;\r\n}\r\n\r\n#navbar div h4{\r\n    color: rgb(75, 75, 75);\r\n    font-size: 0.90em;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    text-decoration: none;\r\n}\r\n\r\n.dynamicBGColor{\r\n    background: #5DA4D9 !important;\r\n}\r\n\r\n.dynamicColor{\r\n    color: #fff !important;\r\n}\r\n"
 
 /***/ }),
 
@@ -608,7 +608,7 @@ module.exports = "*{\r\n    box-sizing: border-box;\r\n}\r\n\r\n#navbar{\r\n    
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"navbar\" class=\"mat-elevation-z8\">\n  <div (click)=\"sendNavToParent('about-me')\" [ngClass]=\"{'dynamicBGColor':selectedNav == 'about-me'}\" class=\"about-me\">\n    <h4 [ngClass]=\"{'dynamicColor':selectedNav == 'about-me'}\" >Home</h4>\n  </div>\n  <div (click)=\"sendNavToParent('resume')\" [ngClass]=\"{'dynamicBGColor':selectedNav == 'resume'}\" class=\"resume\">\n      <h4 [ngClass]=\"{'dynamicColor':selectedNav == 'resume'}\" >Experience</h4>\n  </div>\n   <!--<div [ngClass]=\"{'dynamicBGColor':selectedNav == 'projects'}\" class=\"projects\">-->\n      <!--<h4 [ngClass]=\"{'dynamicColor':selectedNav == 'projects'}\" (click)=\"sendNavToParent('projects')\">Portfolio</h4>-->\n  <!--</div>-->\n  <div (click)=\"sendNavToParent('cover-letter')\" [ngClass]=\"{'dynamicBGColor':selectedNav == 'cover-letter'}\" class=\"contact\">\n        <h4 [ngClass]=\"{'dynamicColor':selectedNav == 'cover-letter'}\" >About Me</h4>\n  </div>\n  <div (click)=\"sendNavToParent('contact')\" [ngClass]=\"{'dynamicBGColor':selectedNav == 'contact'}\" class=\"contact\">\n      <h4 [ngClass]=\"{'dynamicColor':selectedNav == 'contact'}\">Contact</h4>\n  </div>\n</div>\n"
+module.exports = "<div id=\"navbar\" class=\"mat-elevation-z8\">\n  <div (click)=\"sendNavToParent('about-me')\" [ngClass]=\"{'dynamicBGColor':selectedNav == 'about-me'}\" class=\"about-me\">\n    <h4 [ngClass]=\"{'dynamicColor':selectedNav == 'about-me'}\" >Home</h4>\n  </div>\n  <div (click)=\"sendNavToParent('resume')\" [ngClass]=\"{'dynamicBGColor':selectedNav == 'resume'}\" class=\"resume\">\n      <h4 [ngClass]=\"{'dynamicColor':selectedNav == 'resume'}\" >Experience</h4>\n  </div>\n   <div (click)=\"sendNavToParent('projects')\" [ngClass]=\"{'dynamicBGColor':selectedNav == 'projects'}\" class=\"projects\">\n      <h4 [ngClass]=\"{'dynamicColor':selectedNav == 'projects'}\">Portfolio</h4>\n  </div>\n  <div (click)=\"sendNavToParent('cover-letter')\" [ngClass]=\"{'dynamicBGColor':selectedNav == 'cover-letter'}\" class=\"contact\">\n        <h4 [ngClass]=\"{'dynamicColor':selectedNav == 'cover-letter'}\" >About Me</h4>\n  </div>\n  <div (click)=\"sendNavToParent('contact')\" [ngClass]=\"{'dynamicBGColor':selectedNav == 'contact'}\" class=\"contact\">\n      <h4 [ngClass]=\"{'dynamicColor':selectedNav == 'contact'}\">Contact</h4>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -669,17 +669,6 @@ var NavbarComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/projects/projects.component.css":
-/*!*************************************************!*\
-  !*** ./src/app/projects/projects.component.css ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "#projects{\r\n    padding: 32px;\r\n}\r\n\r\nh3{\r\n    text-transform: uppercase;\r\n    margin: 0;\r\n    padding: 0;\r\n}"
-
-/***/ }),
-
 /***/ "./src/app/projects/projects.component.html":
 /*!**************************************************!*\
   !*** ./src/app/projects/projects.component.html ***!
@@ -687,7 +676,18 @@ module.exports = "#projects{\r\n    padding: 32px;\r\n}\r\n\r\nh3{\r\n    text-t
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"projects\">\n  <h3>Projects</h3>\n  <hr>\n  \n</div>"
+module.exports = "<div id=\"projects\">\n  <h4>Coding Memes</h4>\n  <hr>\n\n  <div>\n    <div class=\"coding-memes\">\n      <div class=\"image-container\">\n        <img style=\"height: 400px;\" src=\"./../../assets/img/codingMemes-home.jpg\" alt=\"Marvel Maniac Home Page\">\n      </div>\n      <a class=\"middle\" href=\"https://play.google.com/store/apps/details?id=com.sameerehman.programming_memes\" target=\"_blank\">\n        <div class=\"text\">Visit Play Store</div>\n      </a>\n      <mat-card-content>\n        <p>\n          Sitting and coding all day tends to take a mental toll on programmers. This app allows programmers and\n          developers to detox and enjoy some comedy in their work. The motivation behind this app was to give something\n          to the dev community to enjoy. As programming can get stressful, its nice to have an app that can relate to\n          developers and add some humor to their day.\n        </p>\n        <mat-chip-list aria-label=\"tech-stack\">\n          <mat-chip color=\"primary\" selected>React Native</mat-chip>\n          <mat-chip color=\"accent\" selected>Firebase API</mat-chip>\n        </mat-chip-list>\n      </mat-card-content>\n    </div>\n  </div>\n\n  <br> <br>\n\n  <h4>Marvel Maniac</h4>\n  <hr>\n\n    <div class=\"marvel-maniac\">\n      <div class=\"image-container\">\n        <img mat-card-image src=\"./../../assets/img/marvelManiac-home.PNG\" alt=\"Marvel Maniac Home Page\">\n      </div>\n      <a class=\"middle\" href=\"https://marvel-maniac.netlify.com/\" target=\"_blank\">\n        <div class=\"text\">Visit Project</div>\n      </a>\n      <mat-card-content>\n        <p>\n          This is a simple MCU project for fans of the Marvel Cinematic Universe. You can access all the information\n          pertaining to every MCU movie released thus far.\n          Fans are also able to stay in touch with all the rumors and chatter taking place amongst fans on Reddit. You\n          can also stay up to date with all the new content Marvel Inc. is releasing on Youtube.\n          The biggest module is the Character section. Fans can search for any character, comics stories etc. relating\n          to the Marvel world. This module is an advanced search page where every little information can be accessed by\n          fans.\n        </p>\n        <p> <b> APIs used:</b> Youtube Data API, Marvel API and Reddit API</p>\n        <mat-chip-list aria-label=\"tech-stack\">\n          <mat-chip color=\"primary\" selected>Angular</mat-chip>\n          <mat-chip color=\"accent\"  selected>Netlify Server</mat-chip>\n        </mat-chip-list>\n      </mat-card-content>\n    </div>\n\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/projects/projects.component.scss":
+/*!**************************************************!*\
+  !*** ./src/app/projects/projects.component.scss ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "#projects {\n  padding: 32px; }\n  #projects p {\n    line-height: 1.3em; }\n  #projects h4 {\n    text-transform: uppercase;\n    margin: 0;\n    padding: 0; }\n  .marvel-maniac, .coding-memes {\n  position: relative; }\n  .marvel-maniac img, .coding-memes img {\n    width: 100%;\n    transition: .5s ease;\n    -webkit-backface-visibility: hidden;\n            backface-visibility: hidden;\n    z-index: 99;\n    border-radius: 7px; }\n  .middle {\n  display: inline-block;\n  text-decoration: none;\n  transition: .5s ease;\n  opacity: 1;\n  width: 22%;\n  text-align: center;\n  z-index: 999;\n  font-size: 0.85em;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  transition-duration: 0.4s; }\n  .middle:hover {\n  background-color: #E74C3C;\n  border-radius: 7px; }\n  .middle:hover .text {\n    color: #ffffff; }\n  .text {\n  color: #E74C3C;\n  border-radius: 7px;\n  font-weight: bold;\n  border: 1px solid #E74C3C;\n  padding: 8px; }\n  .image-container:hover img {\n  opacity: 0.85; }\n"
 
 /***/ }),
 
@@ -721,7 +721,7 @@ var ProjectsComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-projects',
             template: __webpack_require__(/*! ./projects.component.html */ "./src/app/projects/projects.component.html"),
-            styles: [__webpack_require__(/*! ./projects.component.css */ "./src/app/projects/projects.component.css")]
+            styles: [__webpack_require__(/*! ./projects.component.scss */ "./src/app/projects/projects.component.scss")]
         }),
         __metadata("design:paramtypes", [])
     ], ProjectsComponent);
@@ -739,7 +739,7 @@ var ProjectsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".user-profile{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 20px;\r\n    float: left;\r\n    background: #fff;\r\n    width: 28%;\r\n    min-height: 565px;\r\n}\r\n\r\n.intro {\r\n    text-align: center;\r\n}\r\n\r\n.intro h3{\r\n    padding: 10px 0 3px 0;\r\n    margin: 0;\r\n    font-size: 1.4em;\r\n    text-transform: uppercase;\r\n    color: rgb(90, 90, 90);\r\n}\r\n\r\nsmall{\r\n    display: inline-block;\r\n    padding: 0 0 10px 0;\r\n    margin: 0;\r\n}\r\n\r\n.statement p{\r\n    font-size: 0.90em;\r\n    color: rgb(99, 99, 99);\r\n    line-height: 1.5em;\r\n}\r\n\r\n.box{\r\n    box-sizing: border-box;\r\n    border-radius: 3px;\r\n    width: 95%;\r\n    background: #5DA4D9;\r\n    margin-bottom: 8px;\r\n}\r\n\r\n.english, .french, .urdu{\r\n    border-radius: 3px;\r\n    color: #fff;\r\n    font-size: 0.80em;\r\n    padding: 7px;\r\n    width: 90%;\r\n    background: #E74C3C;\r\n}\r\n\r\n.french{\r\n    width: 85%;\r\n}\r\n\r\n.urdu{\r\n    width: 75%;\r\n}\r\n\r\n.languages .box:nth-child(1){\r\n    margin-top: 20px;\r\n}\r\n\r\n.material-icons{\r\n    float: left;\r\n    padding-top: 8px;\r\n    font-size: 30px;\r\n}\r\n\r\n.languages h3{\r\n    padding: 5px 0 10px 0;\r\n    margin: 0;\r\n    font-size: 0.97em;\r\n    text-transform: uppercase;\r\n}\r\n\r\n#downloadCV{\r\n    text-align: center;\r\n    padding: 12px;\r\n}\r\n\r\n#downloadCV button{\r\n    color: #fff;\r\n    background: #5DA4D9;\r\n}\r\n\r\n.social-media{\r\n    text-align: center;\r\n    padding-top: 32px;\r\n}\r\n\r\n.social-media i{\r\n    font-size: 32px;\r\n    margin-right: 16px;\r\n    color: rgb(21, 133, 219);\r\n}\r\n\r\n@media only screen and (max-width: 1069px) {\r\n    .user-profile{\r\n        width: 35%;\r\n    }\r\n}\r\n\r\n@media only screen and (max-width: 768px) {\r\n    .user-profile{\r\n        width: 100%;\r\n    }\r\n}"
+module.exports = ".user-profile{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 20px;\r\n    float: left;\r\n    background: #fff;\r\n    width: 28%;\r\n    min-height: 565px;\r\n}\r\n\r\n.intro {\r\n    text-align: center;\r\n}\r\n\r\n.intro h3{\r\n    padding: 10px 0 3px 0;\r\n    margin: 0;\r\n    font-size: 1.4em;\r\n    text-transform: uppercase;\r\n    color: rgb(90, 90, 90);\r\n}\r\n\r\nsmall{\r\n    display: inline-block;\r\n    padding: 0 0 10px 0;\r\n    margin: 0;\r\n}\r\n\r\n.statement p{\r\n    font-size: 0.90em;\r\n    color: rgb(99, 99, 99);\r\n    line-height: 1.5em;\r\n}\r\n\r\n.box{\r\n    box-sizing: border-box;\r\n    border-radius: 2px;\r\n    width: 95%;\r\n    background: #5DA4D9;\r\n    margin-bottom: 8px;\r\n}\r\n\r\n.english, .french, .urdu{\r\n    border-radius: 3px;\r\n    color: #fff;\r\n    font-size: 0.80em;\r\n    padding: 7px;\r\n    width: 90%;\r\n    background: #E74C3C;\r\n}\r\n\r\n.french{\r\n    width: 85%;\r\n}\r\n\r\n.urdu{\r\n    width: 75%;\r\n}\r\n\r\n.languages .box:nth-child(1){\r\n    margin-top: 20px;\r\n}\r\n\r\n.material-icons{\r\n    float: left;\r\n    padding-top: 8px;\r\n    font-size: 30px;\r\n}\r\n\r\n.languages h3{\r\n    padding: 5px 0 10px 0;\r\n    margin: 0;\r\n    font-size: 0.97em;\r\n    text-transform: uppercase;\r\n}\r\n\r\n#downloadCV{\r\n    text-align: center;\r\n    padding: 12px;\r\n}\r\n\r\n#downloadCV button{\r\n    color: #fff;\r\n    background: #5DA4D9;\r\n}\r\n\r\n.social-media{\r\n    text-align: center;\r\n    padding-top: 32px;\r\n}\r\n\r\n.social-media i{\r\n    font-size: 32px;\r\n    margin-right: 16px;\r\n    color: rgb(21, 133, 219);\r\n}\r\n\r\n@media only screen and (max-width: 1069px) {\r\n    .user-profile{\r\n        width: 35%;\r\n    }\r\n}\r\n\r\n@media only screen and (max-width: 768px) {\r\n    .user-profile{\r\n        width: 100%;\r\n    }\r\n}\r\n"
 
 /***/ }),
 
